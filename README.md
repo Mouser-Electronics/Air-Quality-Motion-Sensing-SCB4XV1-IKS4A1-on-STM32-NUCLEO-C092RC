@@ -8,18 +8,20 @@ This project explains how to extract meaningful data from the sensors on the SEN
 
 The Nucleo MCU reads the sensors over I²C and sends a single serial/USB stream to the PC. The IKS4A1 and SENSEVAL-SCB4XV1 act as expansion/evaluation sensor boards that interface to the Nucleo via board connectors — they do not connect to USB directly.
 
-**Sensors:**
-- **SHT40** — temperature & humidity
-- **SGP40** — VOC (with Sensirion's Gas Index Algorithm to calculate a VOC index)
-- **LPS22DF** — barometric pressure
-- **IKS4A1 MEMS** — onboard LSM6DSO16IS and LSM6DSV16X 3D accelerometers
-
 ## Project Materials
 
-- STMicroelectronics NUCLEO-C092RC development board
-- STMicroelectronics X-NUCLEO-IKS4A1 expansion board
-- Sensirion SENSEVAL-SCB4XV1 evaluation board
-- USB Type-C cable
+**Hardware:**
+- [STMicroelectronics NUCLEO-C092RC Development Board](https://eu.mouser.com/new/stmicroelectronics/stm-nucleo-c092rc-dev-board/)
+- [STMicroelectronics X-NUCLEO-IKS4A1 Expansion Board](https://eu.mouser.com/new/stmicroelectronics/stmicroelectronics-x-nucleo-iks4a1-board/)
+- [Sensirion SENSEVAL-SCB4XV1 Evaluation Board](https://eu.mouser.com/new/sensirion/sensirion-senseval-scb4xv1-board/)
+- [Adafruit USB Type-C cable](https://www.mouser.com/ProductDetail/Adafruit/4472?qs=CUBnOrq4ZJxdyof1rGiiGQ%3D%3D)
+
+**Software & Tools:**
+- STM32CubeIDE
+- STM32CubeMX
+- X-CUBE-MEMS1 expansion software package for STM32Cube
+- Sensirion Gas Index Algorithm
+- PC running Windows
 
 ---
 
@@ -50,7 +52,7 @@ BAUD = 115200
 MAX_POINTS = 500
 ​```
 
-**Or run `GUI.exe`** — select the board's COM port and set the baud rate to `115200` (matching the Nucleo's USART baud rate).
+**Or run `GUI.exe`** — select the board's COM port and set the baud rate to `115200.`
 
 ---
 
