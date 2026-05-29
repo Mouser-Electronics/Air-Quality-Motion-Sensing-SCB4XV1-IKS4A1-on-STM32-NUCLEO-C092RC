@@ -6,7 +6,7 @@ Firmware (STM32CubeIDE) and a Python GUI for reading **environmental and motion 
 
 This project explains how to extract meaningful data from the sensors on the SENSEVAL-SCB4XV1 board and motion data from ST's IKS4A1 expansion module, combining environmental and movement measurements in one design. It's aimed at industrial, IIoT, automation, and robotics applications, including autonomous mobile robots (AMRs), where sensing temperature, humidity, air quality, and pressure helps systems adapt to dynamic environments.
 
-The Nucleo MCU reads the sensors over I²C and sends a single serial/USB stream to the PC. The IKS4A1 and SENSEVAL-SCB4XV1 act as expansion/evaluation sensor boards that interface to the Nucleo via board connectors — they do not connect to USB directly.
+The Nucleo MCU reads the sensors over I²C and sends a single serial/USB stream to the PC. The IKS4A1 and SENSEVAL-SCB4XV1 act as expansion/evaluation sensor boards that interface to the Nucleo via board connectors.
 
 ## Project Materials
 
@@ -56,4 +56,4 @@ MAX_POINTS = 500
 
 ---
 
-Full step-by-step build guide: **[Mouser blog article](https://resources.mouser.com/hardware-projects/air-quality-sensing-sensirion-environmental-sensing-module)** 
+📖 Full step-by-step build guide: **[Mouser blog article](https://resources.mouser.com/hardware-projects/air-quality-sensing-sensirion-environmental-sensing-module)** 
