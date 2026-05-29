@@ -56,4 +56,4 @@ MAX_POINTS = 500
 
 ---
 
-> 📖 Full step-by-step build guide: **[Mouser article](https://resources.mouser.com/hardware-projects/air-quality-sensing-sensirion-environmental-sensing-module)** 
+> 📖 Full step-by-step build guide: **[Mouser guide](https://resources.mouser.com/hardware-projects/air-quality-sensing-sensirion-environmental-sensing-module)** 
